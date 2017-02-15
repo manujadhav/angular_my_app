@@ -1,9 +1,29 @@
 <div>
-	<h1>{{title}}</h1>
-	<h2>{{hero.name}} details!</h2>
-	<div><label>Hero ID: </label>{{hero.id}}</div>
-	<div>
-		<label>Name: </label>
-		<input [(ngModel)]="hero.name" placeholder="Please enter Hero Name" >
-	</div>
+    <h1>{{title}}</h1>
+    <h2>{{hero.name}} details!</h2>
+    <div>
+        <label>Hero ID: </label>{{hero.id}}</div>
+    <div>
+        <label>Name: </label>
+        <input [(ngModel)]="hero.name" placeholder="Please enter Hero Name">
+    </div>
+
+
+    <form class="example-form">
+        <md-input-container class="example-full-width">
+            <input md-input placeholder="Company (disabled)" disabled value="Google">
+        </md-input-container>
+        <md-input-container class="example-full-width">
+            <input md-input placeholder="First name">
+        </md-input-container>
+        
+        <p>
+            <md-input-container class="example-full-width">
+                <textarea md-input placeholder="Address">1600 Amphitheatre Pkwy</textarea>
+            </md-input-container>
+            <md-input-container class="example-full-width">
+                <textarea md-input placeholder="Address 2"></textarea>
+            </md-input-container>
+        </p>
+    </form>
 </div>
