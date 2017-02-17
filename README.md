@@ -9,3 +9,10 @@ This is a sample app intented to test trial and cover most concepts of Angular 2
 
 ### To run the App
 npm start
+
+
+### Node versions
+npm
+	4.0.2
+Node 
+	v6.9.1
